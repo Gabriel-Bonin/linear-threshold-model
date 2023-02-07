@@ -15,7 +15,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # opening c.elegans connections using data in file 'data'
-neurons = pd.read_excel('ConexoesCElegans (2).xlsx')
+neurons = pd.read_excel('data.xlsx')
 
 # building a graph with networkx and creating links between nodes
 G = nx.Graph()
